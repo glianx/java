@@ -1,0 +1,40 @@
+public class SStackMinTest {
+	public static void main(String [] args) {
+		SStackMin m1 = new SStackMin();
+		m1.push(6);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.push(7);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.push(8);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.push(5);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.push(3);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.pop();
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.push(10);
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.pop();
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+		System.out.println();
+		m1.pop();
+		m1.printStackMin();
+		System.out.println(m1.getMin());
+	}
+}
